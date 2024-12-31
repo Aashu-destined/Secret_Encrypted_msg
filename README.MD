@@ -32,7 +32,7 @@ This repository contains a simple Python script for encrypting and decrypting se
     -Choose whether to encrypt or decrypt.
     -View the result on the terminal.
 
-📋 Example
+## 📋 Example
 Encryption
 Input:
 hello world python
@@ -47,7 +47,7 @@ tyellohnxl lrow tynthonpynxl
 Output:
 hello world python
 
-🔍 How It Works
+## 🔍 How It Works
 Encryption
     Splits the message into words.
     For words with more than 3 characters:
@@ -63,7 +63,7 @@ Decryption
     Reverses the characters.
 
 
-📜 Code Overview
+## 📜 Code Overview
 Functions
     encrypt(msg): Encrypts a given message.
     decrypt(msg): Decrypts an encrypted message.
@@ -73,22 +73,22 @@ Entry Point
 The script starts execution from the if __name__ == "__main__": block, where it accepts user input and processes the message.
 
 
-🔧 Customization
+## 🔧 Customization
 Modify the prefixes and suffixes in the encrypt and decrypt functions for a personalized encryption scheme.
 Adjust the logic for short words to suit your requirements.
 
 
-🖥️ Dependencies
+## 🖥️ Dependencies
 Python 3.x
 No additional libraries are required.
 
-🤝 Contributing
+## 🤝 Contributing
 Feel free to fork this repository, make improvements, and submit a pull request! Suggestions and feedback are always welcome.
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-📧 Contact
+## 📧 Contact
 For questions or collaboration:
 
 GitHub: Aashu-destined
