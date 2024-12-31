@@ -88,7 +88,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## 📧 Contact
 For questions or collaboration:
 
-GitHub: Aashu-destined
+GitHub: https://github.com/Aashu-destined
 
 
 
