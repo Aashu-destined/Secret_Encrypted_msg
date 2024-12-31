@@ -1,6 +1,3 @@
-README Content for GitHub Repository
-    markdown
-    Copy code
 # Secret Message Encryption and Decryption
 
 This repository contains a simple Python script for encrypting and decrypting secret messages. It provides an easy-to-use interface for encoding and decoding messages with a custom encryption scheme. The script also includes a user-friendly prompt to choose between encryption and decryption.
