@@ -29,24 +29,27 @@ def decrypt(msg):
     return decrypt_msg
 
 def salect(msg):            #will ask to encrypt or decrypt the message
-    option = int(input("To Encrypt the msg please enter 1\nTo Dycrypt the msg please enter 0  "))
-    if(option == 1):
-        message = (encrypt(msg))
-    elif(option == 0):
-        message = (decrypt(msg))
-    else:
-        message = "Envalid option. Please enter 1 for encryption or 0 for decryption."
-
-    return message
+    while True:
+        try:
+            option = int(input("To Encrypt the msg please enter 1\nTo Dycrypt the msg please enter 0  "))
+            if(option == 1):
+                return encrypt(msg)
+            elif(option == 0):
+                return decrypt(msg)
+            else:
+                print("Envalid option. Please enter 1 for encryption or 0 for decryption.")
+        except ValueError:
+            print("Invalid input. Please enter a valid number (1 or 0).")
+    
 
 def run(msg):
     print(salect(msg))   
 
 
-# if("__name__" == "__main__"):
+if __name__ == "__main__":
 
-msg = input("Enter your message: ")
-run(msg)
+    msg = input("Enter your message: ")
+    run(msg)
 
 # option = int(input("To Encrypt the msg please enter 1\nTo Dycrypt the msg please enter 0  "))
 # if(option == 1):
