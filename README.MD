@@ -21,6 +21,7 @@ This repository contains a simple Python script for encrypting and decrypting se
    cd Secret_Encrypted_msg
 
 2. **Run the Script**:
+    ```bash
     python secret_message.py
 
 3. Follow the Prompts:
